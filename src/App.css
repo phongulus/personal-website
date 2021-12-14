@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -26,13 +30,251 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+.navbar-wrapper {
+  background-color: rgb(123, 203, 206);
+  z-index: 1;
+  box-shadow: 1px 1px 10px 1px rgb(59, 59, 59);
+  width: 100%;
+  min-height: 50px;
+  position: fixed;
 }
 
-@keyframes App-logo-spin {
+.navbar {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 50px;
+  min-height: 50px;
+  max-width: 1200px;
+}
+
+.navbuttons {
+  /* padding-left: 50px; */
+  /* padding-right: 150px; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right; 
+  /* gap: 50px; */
+}
+
+.nav-button {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+
+  background-color: rgb(123, 203, 206);
+  color: black;
+}
+
+.nav-button:hover {
+  background-color: rgb(100, 178, 180);
+}
+
+.navbar-logo {
+  max-height: 50px;
+  /* padding-left: 150px; */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('wp2555196-blue-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello {
+  font-size: 5pc;
+}
+
+.name {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 2pc;
+}
+
+.scroll-icon {
+  max-height: 30px;
+}
+
+.about-wrapper {
+  background-color: antiquewhite;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0px;
+}
+
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.about-desc {
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-pic {
+  max-height: 35vh;
+}
+
+.experience-wrapper {
+  background-color: rgb(196, 208, 240);
+  margin-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.experience {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experience-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px rgb(59, 59, 59);
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.experience-card:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.experience-pic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  height: auto;
+}
+
+.experience-desc {
+  text-align: left;
+}
+
+.projects-wrapper {
+  background-color: rgb(212, 224, 255);
+  margin-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projects {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px rgb(59, 59, 59);
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.project-card-pic {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  /* margin-right: 20px; */
+  width: 100%;
+  max-width: 350px;
+  object-fit: cover;
+  height: auto;
+}
+
+
+
+.contact-wrapper {
+  background-color: rgb(189, 200, 226);
+  margin-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-buttons {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 50px;
+  gap: 50px;
+}
+
+.contact-icon {
+  max-height: 50px;
+}
+
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
