@@ -1,0 +1,18 @@
+.experience-wrapper {
+  /* background-color: rgb(196, 208, 240); */
+  /* background-color: rgb(224, 240, 255); */
+  background-color: aliceblue;
+  margin-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.experience {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
