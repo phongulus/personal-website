@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./images/wp2555196-blue-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello {
+  font-size: 5pc;
+}
+
+.name {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 2pc;
+}
+
+.scroll-icon {
+  max-height: 30px;
+}

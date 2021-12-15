@@ -1,14 +1,10 @@
-// import logo from './images/logo.svg';
-import scroll from './images/scroll.png';
-import profilepic from './images/profile_pic.png';
-import fbicon from './images/facebook.png';
-import githubicon from './images/github.png';
 import './App.css';
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
 import Experience from './Experience';
 import NavBar from './components/NavBar';
 import Projects from './Projects';
+import Contact from './Contact';
+import Home from './Home';
+import About from './About';
 
 function App() {
   return (
@@ -30,79 +26,20 @@ function App() {
 
       <NavBar />
 
-      <div id='home' className='home'>
-        <Zoom>
-          <h1 className='hello'>Hello.</h1>
-        </Zoom>
-        <Zoom delay='1000'>
-          <h2 className='name'>I'm Phong, an aspiring software engineer.</h2>
-        </Zoom>
-        <Zoom delay='1500'>
-          <h5>(scroll down to find out more!)</h5>
-        </Zoom>
-        <Zoom delay='1500'>
-          <img src={scroll} className='scroll-icon' alt='scroll'/>
-        </Zoom>
-      </div>
+      <Home />
 
-      <div className='about-wrapper' id='about'>
-        <div className='about'>
-          <Fade left>
-            <div className='about-desc'>
-              <h1>About me</h1>
-              <p>
-                Thanks for dropping by!
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
-              <p>
-                Keep scrolling to view my milestones and see what I can do, or click below
-                for the TL;DR!
-              </p>
-            </div>
-          </Fade>
-          <Fade right>
-            <img src={profilepic} className='profile-pic' alt="Profile"/>
-          </Fade>
-        </div>
-      </div>
+      <About />
 
       <Experience />
 
       <Projects />
 
-      <div id='contact' className='contact-wrapper'>
-        <div className='contact'>
-
-          <h1>Get in touch</h1>
-          <p>I'm open to internship opportunities right now!</p>
-          <p>
-            Please find my resume
-            and contact details below. If you want to collaborate on
-            a project or simply want to chat, feel free to reach out to me as well!
-          </p>
-
-          <div className='contact-buttons'>
-            <a href="https://facebook.com/">
-              <img src={fbicon} alt='fb' className='contact-icon'/>
-            </a>
-            <a href="https://github.com">
-              <img src={githubicon} alt='github' className='contact-icon' />
-            </a>
-          </div>
-
-        </div>
-      </div>
+      <Contact />
       
       <p></p>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
       <p></p>
 
     </div>

@@ -32,31 +32,6 @@ html {
   color: #61dafb;
 } */
 
-.home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-image: url('./images/wp2555196-blue-background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hello {
-  font-size: 5pc;
-}
-
-.name {
-  padding-left: 15%;
-  padding-right: 15%;
-  font-size: 2pc;
-}
-
-.scroll-icon {
-  max-height: 30px;
-}
-
 .about-wrapper {
   /* background-color: antiquewhite; */
   /* background-color: aliceblue; */
@@ -86,44 +61,6 @@ html {
 .profile-pic {
   max-height: 35vh;
 }
-
-.contact-wrapper {
-  /* background-color: rgb(189, 200, 226); */
-  /* background-color: rgb(224, 240, 255); */
-  background-color: aliceblue;
-  margin-top: 0px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.contact {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-buttons {
-  padding-top: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  max-height: 50px;
-  gap: 50px;
-}
-
-.contact-icon {
-  max-height: 50px;
-  transition: 0.3s;
-}
-
-.contact-icon:hover {
-  transform: scale(1.1);
-}
-
 
 /* @keyframes App-logo-spin {
   from {

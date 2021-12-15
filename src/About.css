@@ -1,0 +1,29 @@
+.about-wrapper {
+  /* background-color: antiquewhite; */
+  /* background-color: aliceblue; */
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0px;
+}
+
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.about-desc {
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-pic {
+  max-height: 35vh;
+}
