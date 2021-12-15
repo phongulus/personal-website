@@ -1,14 +1,14 @@
 // import logo from './images/logo.svg';
 import scroll from './images/scroll.png';
 import profilepic from './images/profile_pic.png';
-import arduinopic from './images/Arduino_Uno_-_R3.jpg'
 import fbicon from './images/facebook.png';
 import githubicon from './images/github.png';
 import './App.css';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import Experience from './experience';
+import Experience from './Experience';
 import NavBar from './components/NavBar';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -76,42 +76,7 @@ function App() {
 
       <Experience />
 
-      <div id='projects' className='projects-wrapper'>
-        <div className='projects'>
-          <h1>My personal projects</h1>
-          <p></p>
-          <div className='project-cards'>
-            
-            <div className='project-card'>
-              <img src={arduinopic} alt="arduino" className='project-card-pic' />
-              <div className='project-card-desc'>
-                <div className='project-card-desc-title'>
-                  <h2>Arduino project</h2>
-                  <h4>2019</h4>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </div>
-            </div>
-
-            <div className='project-card'>
-              <img src={arduinopic} alt="arduino" className='project-card-pic' />
-              <div className='project-card-desc'>
-                <h2>Arduino project</h2>
-                <h4>2019</h4>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
+      <Projects />
 
       <div id='contact' className='contact-wrapper'>
         <div className='contact'>
@@ -136,8 +101,6 @@ function App() {
         </div>
       </div>
       
-      
-
       <p></p>
       <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       <p></p>
