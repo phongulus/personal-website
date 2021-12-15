@@ -1,4 +1,4 @@
-import logo from './images/logo.svg';
+// import logo from './images/logo.svg';
 import scroll from './images/scroll.png';
 import profilepic from './images/profile_pic.png';
 import arduinopic from './images/Arduino_Uno_-_R3.jpg'
@@ -8,6 +8,7 @@ import './App.css';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import Experience from './experience';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -27,19 +28,7 @@ function App() {
         </a>
       </header> */}
 
-      <div className='navbar-wrapper'>
-        <div className='navbar'>
-          <img src={logo} className="navbar-logo" alt="logo"/>
-          <div className='navbuttons'>
-            <a href='#home' className='nav-button'>Home</a>
-            <a href='#about' className='nav-button'>About</a>
-            <a href='#experience' className='nav-button'>Experience</a>
-            <a href='#projects' className='nav-button'>Projects</a>
-            <a href='#contact' className='nav-button'>Contact</a>
-          </div>
-        </div>
-      </div>
-      
+      <NavBar />
 
       <div id='home' className='home'>
         <Zoom>
