@@ -97,7 +97,7 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('wp2555196-blue-background.png');
+  background-image: url('./images/wp2555196-blue-background.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
