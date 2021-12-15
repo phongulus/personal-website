@@ -4,7 +4,10 @@
   background-color: white;
   z-index: 1;
   opacity: 0.97;
-  box-shadow: 1px 1px 10px 1px rgb(59, 59, 59);
+  /* box-shadow: 1px 1px 10px 1px rgb(59, 59, 59); */
+  border-style: none none solid none;
+  /* border-color: rgb(224, 224, 224); */
+  border-color: lightgray;
   width: 100%;
   min-height: 50px;
   position: fixed;
