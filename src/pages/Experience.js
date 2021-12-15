@@ -1,7 +1,7 @@
 // import React from "react";
 import './Experience.css';
-import ExperienceCard from './components/ExperienceCard';
-import highschoolpic from './images/2018-09-lfay-hanoi-vietnam-474x246.jpg';
+import ExperienceCard from '../components/ExperienceCard';
+import highschoolpic from '../images/2018-09-lfay-hanoi-vietnam-474x246.jpg';
 
 function Experience(props) {
   return (

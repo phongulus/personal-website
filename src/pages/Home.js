@@ -1,6 +1,6 @@
 import './Home.css';
 import Zoom from 'react-reveal/Zoom';
-import scroll from './images/scroll.png';
+import scroll from '../images/scroll.png';
 
 function Home(props) {
   return (

@@ -1,6 +1,6 @@
 import './Projects.css';
-import ProjectCard from './components/ProjectCard';
-import arduinopic from './images/Arduino_Uno_-_R3.jpg'
+import ProjectCard from '../components/ProjectCard';
+import arduinopic from '../images/Arduino_Uno_-_R3.jpg'
 
 function Projects(props) {
   return (

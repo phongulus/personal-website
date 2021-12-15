@@ -1,10 +1,10 @@
 import './App.css';
-import Experience from './Experience';
+import Experience from './pages/Experience';
 import NavBar from './components/NavBar';
-import Projects from './Projects';
-import Contact from './Contact';
-import Home from './Home';
-import About from './About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import './Contact.css'
-import fbicon from './images/facebook.png';
-import githubicon from './images/github.png';
+import fbicon from '../images/facebook.png';
+import githubicon from '../images/github.png';
 
 function Contact(props) {
   return (

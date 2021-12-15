@@ -1,5 +1,5 @@
 import './About.css';
-import profilepic from './images/profile_pic.png';
+import profilepic from '../images/profile_pic.png';
 import Fade from 'react-reveal/Fade';
 
 function About(props) {
