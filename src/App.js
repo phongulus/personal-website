@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import scroll from './scroll.png';
-import profilepic from './profile_pic.png';
-import highschoolpic from './2018-09-lfay-hanoi-vietnam-474x246.jpg';
-import arduinopic from './Arduino_Uno_-_R3.jpg'
-import fbicon from './facebook.png';
-import githubicon from './github.png';
+import logo from './images/logo.svg';
+import scroll from './images/scroll.png';
+import profilepic from './images/profile_pic.png';
+import highschoolpic from './images/2018-09-lfay-hanoi-vietnam-474x246.jpg';
+import arduinopic from './images/Arduino_Uno_-_R3.jpg'
+import fbicon from './images/facebook.png';
+import githubicon from './images/github.png';
 import './App.css';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
@@ -94,8 +94,11 @@ function App() {
           <div className='experience-card'>
             <img src={highschoolpic} alt="high school" className='experience-pic' />
             <div className='experience-desc'>
-              <h2>Lycée Français Alexandre Yersin</h2>
-              <h4>2016-2020</h4>
+              <div className='experience-desc-title'>
+                <h2>Lycée Français Alexandre Yersin</h2>
+                <h4>2016-2020</h4>
+              </div>
+              
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -137,8 +140,10 @@ function App() {
             <div className='project-card'>
               <img src={arduinopic} alt="arduino" className='project-card-pic' />
               <div className='project-card-desc'>
-                <h2>Arduino project</h2>
-                <h4>2019</h4>
+                <div className='project-card-desc-title'>
+                  <h2>Arduino project</h2>
+                  <h4>2019</h4>
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
