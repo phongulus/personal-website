@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ExperienceCard from './components/ExperienceCard';
 import highschoolpic from './images/2018-09-lfay-hanoi-vietnam-474x246.jpg';
 
