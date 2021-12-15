@@ -11,10 +11,8 @@ function ExperienceCard(props) {
 
         <div className='experience-desc'>
 
-          <div className='experience-desc-title'>
-            <h2>{props.title}</h2>
-            <h4>{props.date}</h4>
-          </div>
+          <h2 className='experience-desc-title'>{props.title}</h2>
+          <h4>{props.date}</h4>
           
           <p>{props.desc}</p>
 

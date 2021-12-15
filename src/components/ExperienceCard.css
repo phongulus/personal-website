@@ -9,7 +9,7 @@
 }
 
 .experience-card:hover {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(247, 247, 247);
 }
 
 .experience-pic {
@@ -24,9 +24,8 @@
 
 .experience-desc {
   text-align: left;
-  padding-top: 15px;
 }
 
 .experience-desc-title {
-  line-height: 5px;
+  margin-bottom: -15px;
 }
