@@ -8,6 +8,7 @@ import githubicon from './images/github.png';
 import './App.css';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import ExperienceCard from './components/ExperienceCard';
 
 function App() {
   return (
@@ -91,42 +92,61 @@ function App() {
           {/* <p>Click on each card to find out more!</p> */}
           {/* <p></p> */}
 
-          <div className='experience-card'>
-            <img src={highschoolpic} alt="high school" className='experience-pic' />
-            <div className='experience-desc'>
-              <div className='experience-desc-title'>
-                <h2>Lycée Français Alexandre Yersin</h2>
-                <h4>2016-2020</h4>
-              </div>
-              
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
+          <ExperienceCard
+            title='Lycée Français Alexandre Yersin'
+            date='2016 - 2020'
+            image={highschoolpic}
+            img_desc="high school"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum."
+          />
 
-          <div className='experience-card'>
-            <img src={highschoolpic} alt="high school" className='experience-pic' />
-            <div className='experience-desc'>
-              <h2>Lycée Français Alexandre Yersin</h2>
-              <h4>2016-2020</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
+          <ExperienceCard
+            title='Lycée Français Alexandre Yersin'
+            date='2016 - 2020'
+            image={highschoolpic}
+            img_desc="high school"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum."
+          />
+
+          <ExperienceCard
+            title='Lycée Français Alexandre Yersin'
+            date='2016 - 2020'
+            image={highschoolpic}
+            img_desc="high school"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum."
+          />
+
+          <ExperienceCard
+            title='Lycée Français Alexandre Yersin'
+            date='2016 - 2020'
+            image={highschoolpic}
+            img_desc="high school"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum."
+          />
 
         </div>
       </div>
