@@ -1,6 +1,12 @@
 import './Projects.css';
+import {GitHubButton, Icon} from '../components/Button';
 import ProjectCard from '../components/ProjectCard';
 import arduinopic from '../images/Arduino_Uno_-_R3.jpg'
+import arduinoicon from '../images/arduino.png';
+import jslogo from '../images/javascript.png';
+import reactlogo from '../images/react.png';
+import htmlicon from '../images/html.png';
+import cssicon from '../images/css.png';
 
 function Projects(props) {
   return (
@@ -11,7 +17,7 @@ function Projects(props) {
         <div className='project-cards'>
           
           <ProjectCard
-            title="Arduino Project"
+            title="Light Data Transceiver"
             date="2019"
             image={arduinopic}
             img_desc="arduino"
@@ -22,11 +28,17 @@ function Projects(props) {
             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt
             mollit anim id est laborum."
+            buttons={
+              <div className='project-card-buttons'>
+                <Icon icon={arduinoicon} alt="Arduino" />
+                <GitHubButton link="https://github.com" />
+              </div>
+            }
           />
 
           <ProjectCard
-            title="Arduino Project"
-            date="2019"
+            title="Personal Website"
+            date="2021"
             image={arduinopic}
             img_desc="arduino"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -36,6 +48,15 @@ function Projects(props) {
             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt
             mollit anim id est laborum."
+            buttons={
+              <div className='project-card-buttons'>
+                <Icon icon={htmlicon} alt="HTML" />
+                <Icon icon={cssicon} alt="CSS" />
+                <Icon icon={jslogo} alt="Javascript" />
+                <Icon icon={reactlogo} alt="React.js" />
+                <GitHubButton link="https://github.com" />
+              </div>
+            }
           />
 
         </div>

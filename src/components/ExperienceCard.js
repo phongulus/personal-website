@@ -7,7 +7,9 @@ function ExperienceCard(props) {
     <Slide left>
       <div className='experience-card'>
           
-        <img src={props.image} alt={props.img_desc} className='experience-pic' />
+        <div className='experience-pic-wrapper'>
+          <img src={props.image} alt={props.img_desc} className='experience-pic' />
+        </div>
 
         <div className='experience-desc'>
 
@@ -15,6 +17,8 @@ function ExperienceCard(props) {
           <h4>{props.date}</h4>
           
           <p>{props.desc}</p>
+
+          {props.buttons}
 
         </div>
       </div>

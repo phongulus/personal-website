@@ -1,6 +1,8 @@
 import './Contact.css'
-import fbicon from '../images/facebook.png';
 import githubicon from '../images/github.png';
+import linkedinicon from '../images/linkedin.png';
+import mailicon from '../images/mail.png';
+import cvicon from '../images/cv.png';
 
 function Contact(props) {
   return (
@@ -18,11 +20,17 @@ function Contact(props) {
         </p>
 
         <div className='contact-buttons'>
-          <a href="https://facebook.com/">
-            <img src={fbicon} alt='fb' className='contact-icon'/>
+          <a href="https://github.com">
+              <img src={cvicon} alt='github' className='contact-icon' />
           </a>
           <a href="https://github.com">
             <img src={githubicon} alt='github' className='contact-icon' />
+          </a>
+          <a href="https://github.com">
+            <img src={mailicon} alt='github' className='contact-icon' />
+          </a>
+          <a href="https://github.com">
+            <img src={linkedinicon} alt='github' className='contact-icon' />
           </a>
         </div>
 

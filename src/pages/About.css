@@ -13,6 +13,8 @@
   margin: auto;
   max-width: 1200px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .about-desc {
@@ -24,6 +26,48 @@
   justify-content: center;
 }
 
+.cv-button {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.profile-pic-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-pic-wrapper-mobile {
+  display: none;
+}
+
 .profile-pic {
   max-height: 35vh;
+}
+
+@media screen and (max-width: 800px){
+  .profile-pic-wrapper {
+    display: none;
+  }
+
+  .profile-pic-wrapper-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cv-button {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
 }

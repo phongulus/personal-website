@@ -3,6 +3,7 @@
   border-style: solid;
   border-radius: 7px;
   border-color: lightgrey;
+  border-width: 1.5px;
   /* box-shadow: 2px 2px 6px rgb(59, 59, 59); */
   padding-left: 20px;
   padding-right: 20px;
@@ -26,4 +27,17 @@
   max-width: 350px;
   object-fit: cover;
   height: auto;
+}
+
+.project-card-title {
+  margin-bottom: -15px;
+}
+
+.project-card-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
 }
