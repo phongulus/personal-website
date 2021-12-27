@@ -12,7 +12,7 @@ function Projects(props) {
   return (
     <div id='projects' className='projects-wrapper'>
       <div className='projects'>
-        <h1>My personal projects</h1>
+        <h1 className='projects-title'>My personal projects</h1>
         <p></p>
         <div className='project-cards'>
           
@@ -21,13 +21,10 @@ function Projects(props) {
             date="2019"
             image={arduinopic}
             img_desc="arduino"
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum."
+            desc="As part of our research project for the French Baccalaureate,
+            my groupmate and I crafted a pair of transceivers that can send
+            and receive text messages via visible light. I handled the bulk of the
+            circuit design and the programming of the microcontrollers."
             buttons={
               <div className='project-card-buttons'>
                 <Icon icon={arduinoicon} alt="Arduino" />
@@ -41,13 +38,10 @@ function Projects(props) {
             date="2021"
             image={arduinopic}
             img_desc="arduino"
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum."
+            desc="This website is my first foray into web development. I created this website
+            using React, all while making sure it displays nicely on both mobile screens
+            and large displays. Animations were implemented using React Reveal, Material UI,
+            and pure CSS."
             buttons={
               <div className='project-card-buttons'>
                 <Icon icon={htmlicon} alt="HTML" />
