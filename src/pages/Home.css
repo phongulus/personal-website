@@ -4,9 +4,12 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('../images/wp2555196-blue-background.png');
+  /* background-image: url('../images/wp2555196-blue-background.png'); */
+  /* background-image: url('../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg'); */
+  background-image: url('../images/nathan-anderson-L95xDkSSuWw-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 .hello {
@@ -21,4 +24,5 @@
 
 .scroll-icon {
   max-height: 30px;
+  filter: invert(1);
 }

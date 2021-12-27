@@ -29,12 +29,20 @@ function Icon(props) {
 
 function GitHubButton(props) {
   return (
-    <Button
-      link={props.link}
-      icon={githubicon}
-      alt="GitHub"
-      desc="View on GitHub"
-    />
+    // <Button
+    //   link={props.link}
+    //   icon={githubicon}
+    //   alt="GitHub"
+    //   desc="View on GitHub"
+    // />
+    <a href={props.link} className='button'>
+      <div className="button-content">
+        <img src={githubicon} alt={"GitHub"} className="github-button-icon" />
+        <div className='button-desc'>
+          <p>View on GitHub</p>
+        </div>  
+      </div>
+    </a>
   )
 }
 

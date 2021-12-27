@@ -1,9 +1,9 @@
 .experience-card {
-  background-color: white;
   border-radius: 7px;
   border-width: 1.5px;
-  border-style: solid;
-  border-color: lightgray;
+  /* border-style: solid; */
+  /* border-color: lightgray; */
+  background-color: rgb(5, 45, 63);
   /* box-shadow: 2px 2px 6px rgb(59, 59, 59); */
   padding-left: 20px;
   padding-right: 20px;
@@ -13,7 +13,8 @@
 }
 
 .experience-card:hover {
-  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(247, 247, 247); */
+  background-color: rgb(5, 54, 77);
 }
 
 .experience-pic {
@@ -43,10 +44,12 @@
   align-items: left; */
   margin-left: 20px;
   text-align: left;
+  color: rgb(202, 202, 202);
 }
 
 .experience-desc-title {
   margin-bottom: -15px;
+  /* color: white; */
 }
 
 .experience-card-buttons {

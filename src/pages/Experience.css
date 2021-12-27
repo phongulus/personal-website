@@ -2,10 +2,17 @@
   /* background-color: rgb(196, 208, 240); */
   /* background-color: rgb(224, 240, 255); */
   /* background-color: rgb(176, 202, 226); dumb ann*/
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  /* background-color: rgb(149, 209, 204); */
+  /* background-color: rgb(246, 242, 212); */
+  background-color: rgb(4, 28, 50);
   margin-top: 0px;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.experience-title {
+  color: white;
 }
 
 .experience {

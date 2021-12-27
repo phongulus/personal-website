@@ -1,10 +1,15 @@
 .contact-wrapper {
   /* background-color: rgb(189, 200, 226); */
   /* background-color: rgb(224, 240, 255); */
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  /* background-color: rgb(149, 209, 204); */
+  /* background-color: rgb(246, 242, 212); */
+  /* background-color: rgb(4, 28, 50); */
+  background-color: rgb(5, 45, 63);
   margin-top: 0px;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 0px;
 }
 
 .contact {
@@ -14,6 +19,16 @@
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+  color: rgb(202, 202, 202);
+}
+
+.contact-title {
+  color: white;
+}
+
+.contact-sep {
+  /* background-color: rgb(4, 28, 50); */
+  margin-top: 0px;
 }
 
 .contact-buttons {
@@ -29,6 +44,7 @@
 .contact-icon {
   max-height: 50px;
   transition: 0.3s;
+  filter: invert(1);
 }
 
 .contact-icon:hover {

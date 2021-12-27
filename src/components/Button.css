@@ -22,7 +22,10 @@
 .cv-button-wrapper {
   display: flex;
   /* background-color: rgb(255, 219, 225); */
-  background-color: rgb(164, 213, 255);
+  /* background-color: rgb(164, 213, 255); */
+  /* background-color: rgb(85, 132, 172); */
+  /* background-color: rgb(6, 70, 99); */
+  background-color: rgb(5, 54, 77);
   border-radius: 10px;
   border: solid;
   padding-top: 10px;
@@ -51,7 +54,8 @@
   justify-content: left;
   padding-left: 10px;
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: rgb(202, 202, 202);
 }
 
 .button-icon {
@@ -60,15 +64,23 @@
   max-height: 40px;
 }
 
+.github-button-icon {
+  display: block;
+  margin: auto;
+  max-height: 60px;
+  filter: invert(1);
+}
+
 .icon {
   display: flex;
-  background-color: none;
-  border-radius: 10px;
+  background-color: white;
+  /* background-color: rgb(202, 202, 202); */
+  border-radius: 30px;
   border: solid;
-  /* padding-top: 10px; */
-  /* padding-bottom: 5px; */
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
   border: none;
   text-align: center;
   text-decoration: none;

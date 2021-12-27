@@ -1,7 +1,13 @@
 .about-wrapper {
   /* background-color: antiquewhite; */
   /* background-color: aliceblue; */
-  background-color: white;
+  /* background-color: white; */
+  /* background-color: rgb(149, 209, 204); */
+  /* background-color: rgb(246, 242, 212); */
+  /* background-color: rgb(34, 87, 126); */
+  background-color: rgb(4, 28, 50);
+  /* color: rgb(255, 254, 246); */
+  color: rgb(202, 202, 202);
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 0px;
@@ -15,6 +21,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.about-title {
+  color: white;
 }
 
 .about-desc {

@@ -1,13 +1,14 @@
 .navbar-wrapper {
   /* background-color: rgb(123, 203, 206); */
   /* background-color: aliceblue; */
-  background-color: white;
+  /* background-color: white; */
+  background-color: rgb(5, 45, 63);
   z-index: 1;
   opacity: 0.97;
   /* box-shadow: 1px 1px 10px 1px rgb(59, 59, 59); */
-  border-style: none none solid none;
+  /* border-style: none none solid none; */
   /* border-color: rgb(224, 224, 224); */
-  border-color: lightgray;
+  /* border-color: lightgray; */
   width: 100%;
   min-height: 50px;
   position: fixed;
@@ -47,13 +48,15 @@
 
   /* background-color: rgb(123, 203, 206); */
   /* background-color: aliceblue; */
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  /* color: black; */
+  color: rgb(202, 202, 202);
 }
 
 .nav-button:hover {
   /* background-color: rgb(100, 178, 180); */
-  background-color: rgb(212, 219, 226);
+  /* background-color: rgb(212, 219, 226); */
+  background-color: rgb(5, 54, 77);
 }
 
 .navbar-logo {
@@ -70,6 +73,7 @@
   margin-bottom: -6px;
   padding-left: 20px;
   min-width: 200px;
+  color: white;
 }
 
 .navbar-menu {
