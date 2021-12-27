@@ -10,7 +10,7 @@ function About(props) {
         <Fade left>
           <div className='about-desc'>
 
-            <h1>About me</h1>
+            <h1 className='about-title'>About me</h1>
             
             <div className='profile-pic-wrapper-mobile'>
               <Fade right>
@@ -22,13 +22,15 @@ function About(props) {
               Thanks for dropping by!
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              My full name is Le Nguyen Phong, but I'm just Phong to my friends and family. I enjoy
+              tinkering with technology in my free time, be it software or hardware, and perusing
+              news on the latest computing products and innovations.
+            </p>
+            <p>
+              Originally from Hanoi, Vietnam, I am now enrolled as an undergraduate at Yale-NUS College
+              in sunny Singapore, where I put my mostly self-taught coding skills to use in various
+              research projects. I'm currently exploring web development, and I hope to look into
+              machine learning in the near future.
             </p>
             <p>
               Keep scrolling to view my milestones and see what I can do, or click below
