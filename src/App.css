@@ -4,4 +4,22 @@ html {
 
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.attribution {
+  background-color: rgb(4, 28, 50);
+  color: rgb(202, 202, 202);
+  margin-top: -16px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0px;
+}
+
+.attribution-link {
+  color: rgb(202, 202, 202);
+  text-decoration: none;
 }
