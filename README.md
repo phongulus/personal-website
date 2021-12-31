@@ -2,7 +2,7 @@
 
 This website is my first foray into web development.
 
-Check it out at: [link here]!
+Check it out <a href="https://lenguyenphong.com">here</a>!
 
 ## Coding :desktop_computer:
 
@@ -27,3 +27,5 @@ I also have a handful of technical and design improvements in mind:
 2. A hobbies / interests section.
 3. More animations! For example, making the little mouse icon on the landing section 
 bounce.
+4. Code cleanup. The cleanliness and legibility of my code can most definitely be improved (redundent CSS,
+commented out code...).
