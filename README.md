@@ -15,7 +15,10 @@ I also spent some time to make sure my website looks nice on both desktop displa
 (even larger ones!) and mobile screens. You can see this in action by resizing your
 browser window.
 
-The initial version of the website was deployed through AWS S3.
+The initial version of the website was deployed through AWS S3. A special thank you
+to my friend Leonard Tng who wrote
+<a href=https://leonardtng.medium.com/aws-static-website-hosting-over-https-2dd2fa20303d>this extremely helpful guide</a>
+on how to deploy a website with AWS!
 
 ## Future plans :telescope:
 
