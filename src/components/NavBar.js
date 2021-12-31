@@ -11,7 +11,13 @@ function NavMenuButtonMobile() {
       <button onClick={() => setMenuState(true)} className='navbar-menu'>
         <img src={menuicon} alt='Menu' className='navbar-menu-icon' />
       </button>
-      <Drawer variant="temporary" anchor='right' open={isMenuOpen} onClose={() => setMenuState(false)}>
+      <Drawer
+        PaperProps={{sx:{bgcolor:"rgb(5, 45, 63)"}}}
+        variant="temporary"
+        anchor='right'
+        open={isMenuOpen}
+        onClose={() => setMenuState(false)}
+      >
         <a href='#home' className='nav-button' onClick={() => setMenuState(false)}>Home</a>
         <a href='#about' className='nav-button' onClick={() => setMenuState(false)}>About</a>
         <a href='#experience' className='nav-button' onClick={() => setMenuState(false)}>Experience</a>

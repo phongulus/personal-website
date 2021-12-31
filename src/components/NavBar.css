@@ -102,6 +102,7 @@
   .navbar-menu-icon {
     max-height: 30px;
     padding-right: 20px;
+    filter: invert(1);
   }
 
   .nav-button {
@@ -116,7 +117,7 @@
   
     /* background-color: rgb(123, 203, 206); */
     /* background-color: aliceblue; */
-    background-color: white;
-    color: black;
+    background-color: rgb(5, 45, 63);
+    color: rgb(202, 202, 202);
   }
 }
