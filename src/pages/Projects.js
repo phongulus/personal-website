@@ -1,12 +1,14 @@
 import './Projects.css';
 import {GitHubButton, Icon} from '../components/Button';
 import ProjectCard from '../components/ProjectCard';
-import arduinopic from '../images/Arduino_Uno_-_R3.jpg'
 import arduinoicon from '../images/arduino.png';
 import jslogo from '../images/javascript.png';
 import reactlogo from '../images/react.png';
 import htmlicon from '../images/html.png';
 import cssicon from '../images/css.png';
+import website from '../images/website_screenshot.jpg';
+import lightproj from '../images/light_project.jpg';
+import question from '../images/question-marks.jpg';
 
 function Projects(props) {
   return (
@@ -19,8 +21,8 @@ function Projects(props) {
           <ProjectCard
             title="Light Data Transceiver"
             date="2019"
-            image={arduinopic}
-            img_desc="arduino"
+            image={lightproj}
+            img_desc="project"
             desc="As part of our research project for the French Baccalaureate,
             my groupmate and I crafted a pair of transceivers that can send
             and receive text messages via visible light. I handled the bulk of the
@@ -28,7 +30,7 @@ function Projects(props) {
             buttons={
               <div className='project-card-buttons'>
                 <Icon icon={arduinoicon} alt="Arduino" />
-                <GitHubButton link="https://github.com" />
+                <GitHubButton link="https://github.com/phongulus/light-messenger" />
               </div>
             }
           />
@@ -36,21 +38,29 @@ function Projects(props) {
           <ProjectCard
             title="Personal Website"
             date="2021"
-            image={arduinopic}
-            img_desc="arduino"
+            image={website}
+            img_desc="website"
             desc="This website is my first foray into web development. I created this website
             using React, all while making sure it displays nicely on both mobile screens
             and large displays. Animations were implemented using React Reveal, Material UI,
-            and pure CSS."
+            and CSS."
             buttons={
               <div className='project-card-buttons'>
                 <Icon icon={htmlicon} alt="HTML" />
                 <Icon icon={cssicon} alt="CSS" />
                 <Icon icon={jslogo} alt="Javascript" />
                 <Icon icon={reactlogo} alt="React.js" />
-                <GitHubButton link="https://github.com" />
+                <GitHubButton link="https://github.com/phongulus/personal-website" />
               </div>
             }
+          />
+
+          <ProjectCard
+            title="Mystery Project"
+            date="Coming Soon!"
+            image={question}
+            img_desc="Question Marks"
+            desc="Stay tuned for more fun projects that I'll undertake in the future!"
           />
 
         </div>

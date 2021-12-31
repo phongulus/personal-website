@@ -11,6 +11,7 @@ import rpi from '../images/raspberry-pi.png';
 import mysql from '../images/mysql.png';
 import cpp from '../images/c.png';
 import cgal from '../images/cgal.png';
+import labmonitor from '../images/lab_monitor_screenshot.png';
 
 function Experience(props) {
   return (
@@ -66,7 +67,7 @@ function Experience(props) {
         <ExperienceCard
           title='Olsen Lab - Student Researcher'
           date='May 2021 - present'
-          image={highschoolpic}
+          image={labmonitor}
           img_desc="high school"
           desc="Due to the sensitive nature of Professor Ben Olsen's experiments, monitoring lab conditions is a must.
           I have set up a system for monitoring temperatures and humidities around the lab using Raspberry

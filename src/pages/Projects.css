@@ -22,11 +22,12 @@
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .project-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 50px;
 }
