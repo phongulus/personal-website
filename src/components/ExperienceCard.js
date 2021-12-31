@@ -11,6 +11,8 @@ function ExperienceCard(props) {
           <img src={props.image} alt={props.img_desc} className='experience-pic' />
         </div>
 
+        <img src={props.image} alt={props.img_desc} className='experience-pic-mobile' />
+
         <div className='experience-desc'>
 
           <h2 className='experience-desc-title'>{props.title}</h2>
