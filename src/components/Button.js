@@ -2,7 +2,7 @@ import './Button.css'
 import React from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import githubicon from '../images/github.png'
-import cvicon from '../images/cv.png';
+import resumeicon from '../images/resume.png';
 import resume from '../resume.pdf';
 
 function Button(props) {
@@ -30,12 +30,6 @@ function Icon(props) {
 
 function GitHubButton(props) {
   return (
-    // <Button
-    //   link={props.link}
-    //   icon={githubicon}
-    //   alt="GitHub"
-    //   desc="View on GitHub"
-    // />
     <a href={props.link} className='button' target="_blank" rel="noopener noreferrer">
       <div className="button-content">
         <img src={githubicon} alt={"GitHub"} className="github-button-icon" />
@@ -47,17 +41,11 @@ function GitHubButton(props) {
   )
 }
 
-function CvButton(props) {
+function ResumeButton(props) {
   return (
-    // <Button
-    //   link="https://google.com"
-    //   icon={cvicon}
-    //   alt="CV"
-    //   desc="View my Resume"
-    // />
-    <a href={resume} className='cv-button-wrapper' target="_blank" rel="noopener noreferrer">
+    <a href={resume} className='resume-button-wrapper' target="_blank" rel="noopener noreferrer">
       <div className="button-content">
-        <img src={cvicon} alt="CV" className="button-icon" />
+        <img src={resumeicon} alt="Resume" className="resume-icon" />
         <div className='button-desc'>
           <p>View my Resume</p>
         </div>  
@@ -67,4 +55,4 @@ function CvButton(props) {
 }
 
 export default Button;
-export {Button, GitHubButton, Icon, CvButton};
+export {Button, GitHubButton, Icon, ResumeButton};

@@ -19,7 +19,7 @@
   transform: scale(1.1);
 }
 
-.cv-button-wrapper {
+.resume-button-wrapper {
   display: flex;
   /* background-color: rgb(255, 219, 225); */
   /* background-color: rgb(164, 213, 255); */
@@ -40,8 +40,15 @@
   cursor: pointer;
 }
 
-.cv-button-wrapper:hover {
+.resume-button-wrapper:hover {
   transform: scale(1.1);
+}
+
+.resume-icon {
+  display: block;
+  margin: auto;
+  max-height: 40px;
+  filter: invert(1);
 }
 
 .button-content {

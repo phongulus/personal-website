@@ -1,7 +1,7 @@
 import './About.css';
 import profilepic from '../images/profile_pic_2.jpg';
 import Fade from 'react-reveal/Fade';
-import { CvButton } from '../components/Button';
+import { ResumeButton } from '../components/Button';
 
 function About(props) {
   return (
@@ -36,7 +36,7 @@ function About(props) {
               Keep scrolling to view my milestones and see what I can do, or click below
               for the TL;DR!
             </p>
-            <div className='cv-button'><CvButton /></div>
+            <div className='resume-button'><ResumeButton /></div>
           </div>
         </Fade>
 

@@ -1,8 +1,9 @@
 import './Contact.css'
 import githubicon from '../images/github.png';
-// import linkedinicon from '../images/linkedin.png';
+import linkedinicon from '../images/linkedin.png';
 import mailicon from '../images/email.png';
 import cvicon from '../images/resume.png';
+import resume from '../resume.pdf';
 
 function Contact(props) {
   return (
@@ -20,18 +21,18 @@ function Contact(props) {
         </p>
 
         <div className='contact-buttons'>
-          <a href="https://github.com">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
               <img src={cvicon} alt='github' className='contact-icon' />
           </a>
-          <a href="https://github.com/phongulus">
+          <a href="https://github.com/phongulus" target="_blank" rel="noopener noreferrer">
             <img src={githubicon} alt='github' className='contact-icon' />
           </a>
-          <a href="mailto:phongnguyen.le@u.yale-nus.edu.sg">
+          <a href="mailto:phongnguyen.le@u.yale-nus.edu.sg" target="_blank" rel="noopener noreferrer">
             <img src={mailicon} alt='github' className='contact-icon' />
           </a>
-          {/* <a href="https://github.com">
+          <a href="https://www.linkedin.com/in/lnphong/">
             <img src={linkedinicon} alt='github' className='contact-icon' />
-          </a> */}
+          </a>
         </div>
 
       </div>

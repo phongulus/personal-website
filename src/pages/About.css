@@ -36,7 +36,7 @@
   justify-content: center;
 }
 
-.cv-button {
+.resume-button {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@
     align-items: center;
   }
 
-  .cv-button {
+  .resume-button {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
