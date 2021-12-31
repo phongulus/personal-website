@@ -3,10 +3,11 @@ import React from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import githubicon from '../images/github.png'
 import cvicon from '../images/cv.png';
+import resume from '../resume.pdf';
 
 function Button(props) {
   return (
-    <a href={props.link} className='button'>
+    <a href={props.link} className='button' target="_blank" rel="noopener noreferrer">
       <div className="button-content">
         <img src={props.icon} alt={props.icon_desc} className="button-icon" />
         <div className='button-desc'>
@@ -35,7 +36,7 @@ function GitHubButton(props) {
     //   alt="GitHub"
     //   desc="View on GitHub"
     // />
-    <a href={props.link} className='button'>
+    <a href={props.link} className='button' target="_blank" rel="noopener noreferrer">
       <div className="button-content">
         <img src={githubicon} alt={"GitHub"} className="github-button-icon" />
         <div className='button-desc'>
@@ -54,7 +55,7 @@ function CvButton(props) {
     //   alt="CV"
     //   desc="View my Resume"
     // />
-    <a href="https://google.com" className='cv-button-wrapper'>
+    <a href={resume} className='cv-button-wrapper' target="_blank" rel="noopener noreferrer">
       <div className="button-content">
         <img src={cvicon} alt="CV" className="button-icon" />
         <div className='button-desc'>
