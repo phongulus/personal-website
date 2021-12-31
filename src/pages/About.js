@@ -12,11 +12,11 @@ function About(props) {
 
             <h1 className='about-title'>About me</h1>
             
-            <div className='profile-pic-wrapper-mobile'>
+
               <Fade right>
-                <img src={profilepic} className='profile-pic' alt="Profile"/>
+                <img src={profilepic} className='profile-pic-mobile' alt="Profile"/>
               </Fade>
-            </div>
+
             
             <p>
               Thanks for dropping by!
