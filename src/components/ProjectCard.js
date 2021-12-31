@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide';
 
 function ProjectCard(props) {
   return (
-    <Slide bottom>
+    <Slide left>
       <div className='project-card'>
           
         <img src={props.image} alt={props.img_desc} className='project-card-pic' />
