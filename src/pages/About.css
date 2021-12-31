@@ -54,7 +54,9 @@
 }
 
 .profile-pic {
-  max-height: 35vh;
+  max-width: 400px;
+  border: none;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 800px){

@@ -1,5 +1,5 @@
 import './About.css';
-import profilepic from '../images/profile_pic.png';
+import profilepic from '../images/profile_pic_2.jpg';
 import Fade from 'react-reveal/Fade';
 import { CvButton } from '../components/Button';
 
@@ -28,7 +28,7 @@ function About(props) {
             </p>
             <p>
               Originally from Hanoi, Vietnam, I am now enrolled as an undergraduate at Yale-NUS College
-              in sunny Singapore, where I put my mostly self-taught coding skills to use in various
+              in Singapore, where I put my mostly self-taught coding skills to use in various
               research projects. I'm currently exploring web development, and I hope to look into
               machine learning in the near future.
             </p>
