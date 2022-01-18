@@ -27,7 +27,7 @@ function Contact(props) {
           <a href="https://github.com/phongulus" target="_blank" rel="noopener noreferrer">
             <img src={githubicon} alt='github' className='contact-icon' />
           </a>
-          <a href="mailto:phongnguyen.le@u.yale-nus.edu.sg" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:phongnguyen.le22@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={mailicon} alt='github' className='contact-icon' />
           </a>
           <a href="https://www.linkedin.com/in/lnphong/">
